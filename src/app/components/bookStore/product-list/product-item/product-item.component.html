@@ -1,0 +1,17 @@
+
+<div class="card shadow-sm" style="width:250px;">
+    <img class="card-img-top" src="{{listaBook.img}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{listaBook.name}}</h5>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{listaBook.price | currency:'BRL'}}</li>
+      <li class="list-group-item">{{listaBook.quantity}}</li>
+      <li class="list-group-item">{{listaBook.category}}</li>
+    </ul>
+    <div class="btn-group">
+        <button type="button" class="btn btn-sm btn-primary me-1 mb-2 mt-2">Comprar</button>
+        <button type="button" class="btn btn-sm btn-outline-primary mb-2 mt-2">Detalhes</button>
+    </div>
+
+  </div>
